@@ -12,7 +12,7 @@ from src.exception import CustomException
 from src.logger import logging
 import os
 
-from src.utility import save_object
+from src.utils import save_object
 
 @dataclass
 class DataTransformationConfig:
@@ -24,7 +24,7 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         '''
-        This function si responsible for data transformation
+        This function si responsible for data trnasformation
         
         '''
         try:

@@ -1,4 +1,3 @@
-# logging check documentation 
 import logging
 import os
 from datetime import datetime
@@ -14,7 +13,5 @@ logging.basicConfig(
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
 
-)
 
-# if __name__ == '__main__':
-#     logging.info("logging has started ")
+)
